@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'metadata', component: MaincontainerComponent, data: {load: 'metadata'} },
   { path: 'themes', component: MaincontainerComponent, data: {load: 'themes'} },
   { path: 'audit', component: MaincontainerComponent, data: {load: 'audit'} },
-  { path: 'bin', component: MaincontainerComponent, data: {load: 'bin'} },
+  { path: 'bin', component: MaincontainerComponent, data: {load: 'bin'}, },
   { path: 'login', component: LoginComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'login' }
 ];
